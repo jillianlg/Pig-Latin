@@ -1,4 +1,4 @@
-# _Pig Latin Translator
+# _Pig Latin Translator_
 
 #### _Program takes user input and converts it to pig latin, DATE.2020_
 
