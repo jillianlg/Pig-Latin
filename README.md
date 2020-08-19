@@ -1,12 +1,21 @@
-# _PPOJECT TITLE_
+# _Pig Latin Translator
 
-#### _BRIEF DESCRIPTION OF APPLICATION, DATE.2020_
+#### _Program takes user input and converts it to pig latin, DATE.2020_
 
 #### By _**Jillian Gibson and Kolman Soifer**_
 
 ## Description
 
-_This HTML demonstrates the fundamental understanding of...._
+_This HTML demonstrates the fundamental understanding of using arrays and loops. Users enter a word or sentence into the form, which is then transformed into pig latin and printed to the screen._
+
+## Specs
+| Spec | Input | Output |
+| :-------------     | :------------- | :------------- |
+| **Homepage** | User accesses localhost:5004 | Homepage with user input form |
+| **The program will add 'way' to the end of words that begin with a vowel.** | User input: "paapplents" | Output: "appleway" |
+| **The program will find words that begin with one or more consonants and move all of the first consecutive consonants to end of the word before adding 'ay' to the end.** | User input: "people" | Output: "eoplepay" |
+| **The program will find words that begin with 'qu' and move the 'u' and the 'q' to the end before adding 'ay' to the end.** | User input: "queen" | Output: "eenquay" |
+| **The program will find words that begin with 'y' and treat it as a consonant before adding 'ay' to the end.** | User input: "yellow" | Output: "ellowyay" |
 
 ## Setup/Installation Requirements
 
@@ -22,7 +31,7 @@ _No known bugs._
 
 ## Support and contact details
 
-_Questions or comments can be directed to [Jillian Gibson](jillian.l.gibson@gmail.com) or [Kolman Soifer] (kolmansoifer@gmail.com)._
+_Questions or comments can be directed to [Jillian Gibson](jillian.l.gibson@gmail.com) or [Kolman Soifer](kolmansoifer@gmail.com)._
 
 ## Technologies Used
 
