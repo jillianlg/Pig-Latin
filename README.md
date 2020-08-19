@@ -29,7 +29,7 @@ _Questions or comments can be directed to [Jillian Gibson](jillian.l.gibson@gmai
 * _HTML_
 * _JavaScript_
 * _Bootstrap_
-* -jQuery
+* _jQuery_
 
 ### License
 
