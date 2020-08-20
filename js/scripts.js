@@ -2,6 +2,8 @@
 function pigLatin(userInput) {
   const vowels = ["a", "e", "i", "o", "u"];
   const consonants = ["b", "c", "d", "f", "g","h","j","k","l","m","n","p","q","r","s","t","v","w","x","y","z"];
+  // let vowels = /[aeiou]/;
+  // let consonants = /[bcdfghjklmnpqrstuvwxyz]/;
   let arrayInput = userInput.split("");
   if (userInput === "" || userInput <=0) {
       alert("Please enter a sentence"); 
@@ -12,13 +14,12 @@ function pigLatin(userInput) {
     } else if (consonants.includes(userInput.charAt(0))) {
       let firstLetterRemoved = arrayInput.slice(1);
       let removedLetter = userInput.charAt(0);
-      //array is logging as type Of function
+      //array is logging as type of function
       let array = [];
       array.push(firstLetterRemoved);
       array.push(removedLetter);
       array.push("ay");
       $("#finalWord").text(array);
-
         
     // } else if {
     } else {
